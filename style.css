@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(223, 89, 111) 50%, rgb(114, 211, 114) );
+    min-height: 100vh;
+}
+
+
+.cont_style, .cont_style_input{
+    margin:8px 0px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 8px;
+    align-items: center;
+}
+
+
+.cont_style_input{
+    align-items: stretch;
+}
+
+.add_button, .del_button{
+    border: 1px white solid;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.add_button{
+    background-color: rgb(118, 207, 118);
+}
+
+.add_button:hover{
+    background-color: rgb(195, 252, 195);
+}
+
+
+
+.del_button{
+    background-color: rgb(179, 91, 91);
+}
+
+
+.del_button:hover{
+    background-color: rgb(209, 138, 138);
+}
+
+.style_date, .input_todo_style{
+    font-size: 15px;
+    padding: 8px;
+}
+
+
